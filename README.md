@@ -1,20 +1,14 @@
-Shalom Bootstrap Template
+Shalom October Theme
 =====
 
-Shalom is a free Bootstrap template from BootstrapTaste for creatives, with a simple and modern layout. Nice CSS3 animation added on each section scroll and navigation. This template uses wow.js animation script to animate section elements. Ported for OctoberCMS.
+Shalom is a custom-made OctoberCMS adapted from Artee for Ghost and various other Foundation-based templates
 
-![Screenshot](https://bytebucket.org/fabriciorabelo/squad-theme/raw/6659a6fb22163e1e1162ea835a862df5a2dc981b/assets/images/theme-preview.png)
-
-LICENCE:
---------
-License & Author Details
-[freeware](http://www.bootstraptaste.com/) by [BootstrapTaste](http://www.bootstraptaste.com/)
 
 CREDITS:
 --------
-* Conversion for OctoberCMS: **Fabricio Rabelo**
-* Design and development: [Bootstrap Zero](http://bootstrapzero.com/bootstrap-template/squad)
-* Original release distributed by: [Squad Bootstrap Template](http://bootstrapzero.com/bootstrap-template/squad)
+* Conversion for OctoberCMS: **Victor Toh**
+* Original and development: [Artee](http://artee.pxt.be)
+
 
 About OctoberCMS Briefly
 ------------------------
