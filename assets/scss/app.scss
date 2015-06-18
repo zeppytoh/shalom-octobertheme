@@ -1,0 +1,296 @@
+@import "settings";
+@import "theme-settings";
+//@import "foundation";
+// Or selectively include components
+@import
+   "foundation/components/accordion",
+   "foundation/components/alert-boxes",
+   "foundation/components/block-grid",
+   "foundation/components/breadcrumbs",
+   "foundation/components/button-groups",
+   "foundation/components/buttons",
+   "foundation/components/clearing",
+   "foundation/components/dropdown",
+   "foundation/components/dropdown-buttons",
+   "foundation/components/flex-video",
+   "foundation/components/forms",
+   "foundation/components/grid",
+   "foundation/components/inline-lists",
+   "foundation/components/joyride",
+   "foundation/components/keystrokes",
+   "foundation/components/labels",
+   "foundation/components/magellan",
+   "foundation/components/orbit",
+   "foundation/components/pagination",
+   "foundation/components/panels",
+   "foundation/components/pricing-tables",
+   "foundation/components/progress-bars",
+   "foundation/components/reveal",
+   "foundation/components/side-nav",
+   "foundation/components/split-buttons",
+   "foundation/components/sub-nav",
+   "foundation/components/switches",
+   "foundation/components/tables",
+   "foundation/components/tabs",
+   "foundation/components/thumbs",
+   "foundation/components/tooltips",
+   "foundation/components/top-bar",
+   "foundation/components/type",
+   "foundation/components/offcanvas",
+   "foundation/components/visibility";
+
+@import "style";
+@import "post";
+
+main.shalom-index-content {
+  background-color: #f5f5f5;
+
+}
+/***************** HOME ***************/
+
+
+#home-slider{
+	position: relative;
+	overflow: hidden;
+}
+
+#home-slider .slides li{
+
+	background-size: cover !important;
+	background-position: center;
+}
+
+#home-slider .flex-direction-nav .flex-prev {
+	left: -44px;
+	opacity: 0.7;
+	top: 48%;
+}
+
+#home-slider .flex-direction-nav .flex-next {
+	right: -44px;
+	opacity: 0.7;
+	top: 48%;
+}
+
+#home-slider:hover .flex-direction-nav .flex-prev {
+	left: 44px;
+}
+
+#home-slider:hover .flex-direction-nav .flex-next {
+	right: 44px;
+}
+
+.slider-bg{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	min-width: 100%;
+	min-height: 100%;
+}
+.tile-wrapper{
+	border: 2px solid rgba(255,255,255,0.8);
+	padding: 0.5rem;
+	margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.slider-tile {
+	width: 100%;
+	background-color: rgba(255,255,255,0.8);
+	margin: 0px auto;
+	text-align: center;
+  padding: 1.875rem 0;
+
+}
+
+.slider-tile i {
+    color: #252525 !important;
+
+	font-size: 2.5rem;
+}
+
+.slider-tile h5{
+    color: #252525 !important;
+  font-family: $header-font-family;
+  	width: 85%;
+	margin: 0px auto;
+  text-align: center;
+  letter-spacing: 120%;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+.slider-tile hr {
+    border-bottom: 0.125em solid $oil;
+	margin-bottom: 2rem;
+}
+
+.slider-tile .biline{
+	width: 85%;
+	font-weight: 300;
+	margin: 0px auto;
+	font-family: $body-font-family;
+}
+.slider-tile a.button {
+  margin-top: 1.875rem;
+  border: 2px solid rgba(0,0,0,0.8);
+  background: transparent;
+  padding: 1em;
+  color: $oil;
+  &:hover {
+    background-color: $oil;
+    color: $snow;
+  }
+
+}
+
+.hero-row {
+  @include grid-row();
+  h1 {
+    font-size: 32px;
+    color: #fff;
+    line-height: 28px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  h2 {
+    color: #fff;
+    font-size: 36px;
+    line-height: 34px;
+  }
+  h3 {
+    font-size: 24px;
+    color: #fff;
+    line-height: 10px;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+  h4 {
+    font-family: $header-font-family;
+    color: #000;
+    font-size: 28px;
+    padding-top: 5px;
+  }
+}
+
+#events {
+  background-color: $gainsboro;
+  border-top: 0.675rem solid white;
+}
+
+#newhere {
+  background-color: $snow;
+  ul li img {
+    width: 100%;
+    height: 100%;
+    border: 0.0625rem solid $base;
+    padding: 0.3125rem;
+  }
+}
+
+#contact {
+background-color: $jumbo;
+  h2, h3, h4, p {
+    color: $snow;
+  }
+    .panel {
+    background-color: rgba(0,0,0,0.3);
+      border: #000;
+  }
+}
+
+#about {
+	background: url('../img/f2.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;  h2, p {
+    color: $snow;
+  }
+  .panel {
+    background-color: #cdcdcd;
+  }
+}
+
+#quote-division:before, #events-division:before, #about:before, #contact:before {
+	content:'';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#quote-division, #events-division, #about, #newhere, #contact {
+      padding-top: 2em;
+      padding-bottom: 2em;
+}
+
+#quote-divider .thick-hr{
+	margin: 0px;
+	margin-top: 22px;
+	margin-bottom: 32px;
+	background-color: #fff;
+}
+
+#quote-divider .btn-wrapper{
+	margin-right: 11px;
+}
+
+#quote-divider .btn{
+	border-color: #fff;
+	color: #fff;
+	letter-spacing: 3px;
+	font-size: 12px;
+}
+
+#quote-divider .btn i{
+	margin-right: 5px;
+}
+
+.sermons, .events {
+ padding-top: 1.125rem;
+  .row {
+    background-color: #fff;
+  }
+
+  h2 {
+    padding-top: 0;
+  }
+  time {
+    font-size: 1.2rem;
+  }
+  img {
+    margin-top: 0.5rem;
+  }
+  .fentry {
+    @include grid-row();
+    border-bottom: 1px solid $aluminum;
+    margin: 1rem 0;
+  }
+
+}
+
+#small-groups {
+  @include grid-row();
+  .card {
+    @media #{$small-up} {
+      @include grid-column(3, $float:left);
+
+    }
+  @media #{$small-only} {
+    @include grid-column(12);
+  }
+  p {
+    font-size: 0.875rem;
+  }
+    border-bottom: 2px solid $vapor;
+    .fa-ul {
+      font-size: 1rem;
+      margin-left: 1.875rem;
+    }
+  }
+}
+
+.form-icon {
+  float: right;
+}
