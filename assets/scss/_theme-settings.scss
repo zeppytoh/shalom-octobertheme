@@ -1,0 +1,54 @@
+// scss mixins and functions
+
+@mixin vendor-prefix($name, $argument) {
+  -webkit-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
+  -moz-#{$name}: #{$argument};
+  -o-#{$name}: #{$argument};
+  #{$name}: #{$argument};
+}
+
+/* clearfix */
+.cf:before,
+.cf:after {
+	content: " ";
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+
+$theme-prefix: 'shalom';
+
+// google fonts ( include it in default.hbs )
+$custom-font-family: 'Playfair Display', Georgia, serif;
+
+$main-dark-color: #252525;
+$main-light-color: #fff;
+
+$body-background: #1e2226;
+$anchor-color: $main-dark-color;
+$anchor-color-hover: darken($anchor-color, 10%);
+$site-head-background: $main-light-color;
+$site-head-color: $main-light-color;
+$headroom-color: $main-light-color;
+$site-head-border-top: rem-calc(10) solid $main-dark-color;
+$site-content-headers-color: $main-dark-color;
+$index-post-background: $main-light-color;
+$index-post-meta-color: #999;
+$index-site-footer-background: $main-light-color;
+$index-footer-color: $main-dark-color;
+$index-sort-color: $main-dark-color;
+$selection-color: #000;
+$back-to-top-bg: $main-dark-color;
+$load-more-button-bg: $main-light-color;
+$load-more-button-bg-hover: $main-dark-color;
+$load-more-button-text-color: $main-dark-color;
+$load-more-button-text-color-hover: $main-light-color;
+$post-body-border: rem-calc(10) solid $main-dark-color;
+$post-header-background: #fff;
+$post-background-color: #fff;
+$post-meta-color: #999;
+$post-user-cover-background-color: #fff;
+$post-user-cover-background-border: 1px solid #dadada;
+$post-user-section-color: #595959;

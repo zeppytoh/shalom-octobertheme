@@ -1,29 +1,23 @@
-# Foundation libsass template
+Shalom Bootstrap Template
+=====
 
-This is a template to start your own project that uses Grunt and libsass!
+Shalom is a free Bootstrap template from BootstrapTaste for creatives, with a simple and modern layout. Nice CSS3 animation added on each section scroll and navigation. This template uses wow.js animation script to animate section elements. Ported for OctoberCMS.
 
-## Requirements
+![Screenshot](https://bytebucket.org/fabriciorabelo/squad-theme/raw/6659a6fb22163e1e1162ea835a862df5a2dc981b/assets/images/theme-preview.png)
 
-You'll need to have the following items installed before continuing.
+LICENCE:
+--------
+License & Author Details
+[freeware](http://www.bootstraptaste.com/) by [BootstrapTaste](http://www.bootstraptaste.com/)
 
-  * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
-  * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
-  * [Bower](http://bower.io): Run `[sudo] npm install -g bower`
+CREDITS:
+--------
+* Conversion for OctoberCMS: **Fabricio Rabelo**
+* Design and development: [Bootstrap Zero](http://bootstrapzero.com/bootstrap-template/squad)
+* Original release distributed by: [Squad Bootstrap Template](http://bootstrapzero.com/bootstrap-template/squad)
 
-## Quickstart
+About OctoberCMS Briefly
+------------------------
+OctoberCMS is a free, open source, lightweight & extensible content management system (CMS) based on the [Laravel PHP Framework](http://laravel.com/) for building websites.
 
-```bash
-git clone git@github.com:zurb/foundation-libsass-template.git
-npm install && bower install
-```
-
-While you're working on your project, run:
-
-`grunt`
-
-And you're set!
-
-## Directory Structure
-
-  * `scss/_settings.scss`: Foundation configuration settings go in here
-  * `scss/app.scss`: Application styles go here
+If you would like to learn more, visit the [OctoberCMS website](http://octobercms.com/).

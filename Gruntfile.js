@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -6,15 +8,18 @@ module.exports = function(grunt) {
       options: {
         includePaths: ['bower_components/foundation/scss']
       },
-      dist: {
-        options: {
-          outputStyle: 'compressed',
-          sourceMap: true,
-        },
-        files: {
-          'css/app.css': 'scss/app.scss'
-        }
-      }
+            dist: {
+                options: {
+                    outputStyle: 'nested' // nested or compressed
+                    // sourceMap: true,
+                    // imagePath: '',
+                    // includePaths: []
+                    // more info: https://github.com/sindresorhus/grunt-sass
+                },
+                files: {
+                    'assets/css/app.css': 'assets/scss/app.scss'
+                }
+            }
     },
 
     watch: {
@@ -26,7 +31,7 @@ module.exports = function(grunt) {
       },
 
       sass: {
-        files: 'scss/**/*.scss',
+        files: 'assets/scss/**/*.scss',
         tasks: ['sass']
       }
     }

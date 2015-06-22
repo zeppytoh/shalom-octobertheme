@@ -1,0 +1,41 @@
+[viewBag]
+==
+<div class="headroom headroom--top show-for-medium-up">
+    <div class="row">
+    <div class="shalom-site-logo">
+      <a class="headroom-logo" href="/"><img src="{{ './assets/img/shalom-logo-sq-light.png'|theme }}" alt=""></a>
+      </a>
+    </div>
+    <div class="shalom-header">
+
+      <h1 class="site-title"><a href="/"><strong>Shalom</strong> Baptist Chapel</a></h1>
+    </div>
+    <div class="shalom-blog-menu">
+      <div class="shalom-menu">
+        <div class="shalom-mobile-menu show-for-small">
+          <a href="#"><i class="fa fa-bars"></i></a>
+        </div>
+{% if this.page.baseFileName != '404' and  this.page.baseFileName != 'error' and this.page.baseFileName != 'maintenance' %}
+        {% partial 'main-nav' %}
+{% endif %}
+
+      </div>
+    </div>
+    </div>
+  </div>
+  <header id="shalom-site-head" class="with-post-image shalom-site-head">
+    <div class="shalom-blog-title">
+      <div class="shalom-site-logo">
+        <a id="shalom-blog-logo" href="/"><img src="{{ './assets/img/shalom-logo-sq-dark.png'|theme }}" alt=""></a>
+      </div>
+      <div class="shalom-header">
+            <h1 class="site-title"><a href="/"><strong>Shalom</strong> Baptist Chapel</a></h1>
+      </div>
+      <div class="shalom-blog-menu">
+        <div class="shalom-mobile-menu show-for-small">
+          <a href="#"><i class="fa fa-bars"></i></a>
+        </div>
+        {% partial 'main-nav' %}
+      </div>
+    </div>
+  </header>
