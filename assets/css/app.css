@@ -158,8 +158,8 @@ select {
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   position: relative;
   transition: opacity 300ms ease-out;
-  background-color: #3bb3ff;
-  border-color: #0fa2ff;
+  background-color: #58b8f5;
+  border-color: #2ca5f2;
   color: #FFFFFF; }
   .alert-box .close {
     right: 0.25rem;
@@ -486,7 +486,7 @@ select {
   border-color: gainsboro;
   border-radius: 3px; }
   .breadcrumbs > * {
-    color: #3bb3ff;
+    color: #58b8f5;
     float: left;
     font-size: 0.6875rem;
     line-height: 0.6875rem;
@@ -495,7 +495,7 @@ select {
     .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
       text-decoration: underline; }
     .breadcrumbs > * a {
-      color: #3bb3ff; }
+      color: #58b8f5; }
     .breadcrumbs > *.current {
       color: #333333;
       cursor: default; }
@@ -543,12 +543,12 @@ button, .button {
   display: inline-block;
   padding: 1rem 2rem 1.0625rem 2rem;
   font-size: 1rem;
-  background-color: #3bb3ff;
-  border-color: #009afb;
+  background-color: #58b8f5;
+  border-color: #199df1;
   color: #FFFFFF;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #009afb; }
+    background-color: #199df1; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: #FFFFFF; }
   button.secondary, .button.secondary {
@@ -615,18 +615,18 @@ button, .button {
   button.round, .button.round {
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #3bb3ff;
-    border-color: #009afb;
+    background-color: #58b8f5;
+    border-color: #199df1;
     color: #FFFFFF;
     box-shadow: none;
     cursor: default;
     opacity: 0.7; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #009afb; }
+      background-color: #199df1; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       color: #FFFFFF; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #3bb3ff; }
+      background-color: #58b8f5; }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #e7e7e7;
       border-color: #b9b9b9;
@@ -2841,7 +2841,7 @@ label.error {
   white-space: nowrap;
   padding: 0.25rem 0.5rem 0.25rem;
   font-size: 0.6875rem;
-  background-color: #3bb3ff;
+  background-color: #58b8f5;
   color: #FFFFFF; }
   .label.radius {
     border-radius: 3px; }
@@ -3133,12 +3133,12 @@ ul.pagination {
     ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus, ul.pagination li.unavailable:hover button, ul.pagination li.unavailable button:focus {
       background: transparent; }
     ul.pagination li.current a, ul.pagination li.current button {
-      background: #3bb3ff;
+      background: #58b8f5;
       color: #FFFFFF;
       cursor: default;
       font-weight: 700; }
       ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus {
-        background: #3bb3ff; }
+        background: #58b8f5; }
   ul.pagination li {
     display: block;
     float: left; }
@@ -3176,7 +3176,7 @@ ul.pagination {
     border-color: #d8d8d8;
     margin-bottom: 1.25rem;
     padding: 1.25rem;
-    background: #f3faff;
+    background: #f5fbfe;
     color: #333333; }
     .panel.callout > :first-child {
       margin-top: 0; }
@@ -3190,9 +3190,9 @@ ul.pagination {
       .panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
         line-height: 1.4; }
     .panel.callout a:not(.button) {
-      color: #3bb3ff; }
+      color: #58b8f5; }
       .panel.callout a:not(.button):hover, .panel.callout a:not(.button):focus {
-        color: #0fa2ff; }
+        color: #2ca5f2; }
   .panel.radius {
     border-radius: 3px; }
 
@@ -3250,7 +3250,7 @@ ul.pagination {
   margin-bottom: 0.625rem;
   padding: 0.125rem; }
   .progress .meter {
-    background: #3bb3ff;
+    background: #58b8f5;
     display: block;
     height: 100%; }
   .progress.secondary .meter {
@@ -3398,17 +3398,17 @@ ul.pagination {
     font-weight: 300;
     margin: 0 0 0.4375rem 0; }
     .side-nav li a:not(.button) {
-      color: #3bb3ff;
+      color: #58b8f5;
       display: block;
       margin: 0;
       padding: 0.4375rem 0.875rem; }
       .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
         background: rgba(0, 0, 0, 0.025);
-        color: #76caff; }
+        color: #8acdf8; }
       .side-nav li a:not(.button):active {
-        color: #76caff; }
+        color: #8acdf8; }
     .side-nav li.active > a:first-child:not(.button) {
-      color: #76caff;
+      color: #8acdf8;
       font-family: "Roboto", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-weight: 300; }
     .side-nav li.divider {
@@ -3418,7 +3418,7 @@ ul.pagination {
       padding: 0;
       border-top-color: #e6e6e6; }
     .side-nav li.heading {
-      color: #3bb3ff;
+      color: #58b8f5;
       font-size: 0.875rem;
       font-weight: bold;
       text-transform: uppercase; }
@@ -3540,13 +3540,13 @@ ul.pagination {
         color: #737373; }
     .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
       border-radius: 3px;
-      background: #3bb3ff;
+      background: #58b8f5;
       color: #FFFFFF;
       cursor: default;
       font-weight: 300;
       padding: 0.1875rem 1rem; }
       .sub-nav dt.active a:hover, .sub-nav dd.active a:hover, .sub-nav li.active a:hover {
-        background: #0fa2ff; }
+        background: #2ca5f2; }
 
 .switch {
   border: none;
@@ -3597,7 +3597,7 @@ ul.pagination {
     -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
   .switch input:checked + label {
-    background: #3bb3ff; }
+    background: #58b8f5; }
   .switch input:checked + label:after {
     left: 2.25rem; }
   .switch label {
@@ -3614,7 +3614,7 @@ ul.pagination {
   .switch label:after {
     background: #FFFFFF; }
   .switch input:checked + label {
-    background: #3bb3ff; }
+    background: #58b8f5; }
   .switch.large label {
     height: 2.5rem;
     width: 5rem; }
@@ -3776,7 +3776,7 @@ table {
   max-width: 100%;
   transition: all 200ms ease-out; }
   .th:hover, .th:focus {
-    box-shadow: 0 0 6px 1px rgba(59, 179, 255, 0.5); }
+    box-shadow: 0 0 6px 1px rgba(88, 184, 245, 0.5); }
   .th.radius {
     border-radius: 3px; }
 
@@ -3787,8 +3787,8 @@ table {
   cursor: help;
   font-weight: 700; }
   .has-tip:hover, .has-tip:focus {
-    border-bottom: dotted 1px #00578d;
-    color: #3bb3ff; }
+    border-bottom: dotted 1px #085a8d;
+    color: #58b8f5; }
   .has-tip.tip-left, .has-tip.tip-right {
     float: none !important; }
 
@@ -3825,8 +3825,8 @@ table {
     .tooltip.round > .nub {
       left: 2rem; }
   .tooltip.opened {
-    border-bottom: dotted 1px #00578d !important;
-    color: #3bb3ff !important; }
+    border-bottom: dotted 1px #085a8d !important;
+    color: #58b8f5 !important; }
 
 .tap-to-close {
   color: #777777;
@@ -4015,11 +4015,11 @@ meta.foundation-mq-topbar {
         font-size: 0.8125rem;
         padding-left: 1.6666666667rem;
         padding-right: 1.6666666667rem;
-        background-color: #3bb3ff;
-        border-color: #009afb;
+        background-color: #58b8f5;
+        border-color: #199df1;
         color: #FFFFFF; }
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
-          background-color: #009afb; }
+          background-color: #199df1; }
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
           color: #FFFFFF; }
       .top-bar-section ul li > a.button.secondary {
@@ -4066,11 +4066,11 @@ meta.foundation-mq-topbar {
       font-size: 0.8125rem;
       padding-left: 1.6666666667rem;
       padding-right: 1.6666666667rem;
-      background-color: #3bb3ff;
-      border-color: #009afb;
+      background-color: #58b8f5;
+      border-color: #199df1;
       color: #FFFFFF; }
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
-        background-color: #009afb; }
+        background-color: #199df1; }
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
         color: #FFFFFF; }
       .top-bar-section ul li > button.secondary {
@@ -4483,11 +4483,11 @@ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, t
 
 /* Default Link Styles */
 a {
-  color: #3bb3ff;
+  color: #58b8f5;
   line-height: inherit;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #0fa2ff; }
+    color: #2ca5f2; }
   a img {
     border: none; }
 
@@ -5551,11 +5551,6 @@ ul {
 ol {
   margin-left: 1.6rem; }
 
-a {
-  color: #252525; }
-  a:hover, a:active, a:focus {
-    color: #0c0c0c; }
-
 ::selection {
   background: #000;
   color: #fff; }
@@ -5710,6 +5705,8 @@ iframe {
           font-size: 1.2em; } }
       .shalom-header h1.site-title a {
         color: inherit; }
+        .shalom-header h1.site-title a:hover {
+          color: #2ca5f2; }
       .home-template .shalom-header h1.site-title {
         color: #fff; }
       .shalom-header h1.site-title strong {
@@ -5813,7 +5810,9 @@ iframe {
             .home-template .shalom-blog-menu ul li a {
               color: #fff; }
               .home-template .shalom-blog-menu ul li a:after {
-                background-color: #fff; }
+                background-color: #2ca5f2; }
+              .home-template .shalom-blog-menu ul li a:hover {
+                color: #2ca5f2; }
             .shalom-blog-menu ul li a:after {
               position: absolute;
               opacity: 0;
