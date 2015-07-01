@@ -1,10 +1,9 @@
 [viewBag]
 ==
 <div class="headroom headroom--top show-for-medium-up">
-  <div class="row">
+    <div class="row">
     <div class="shalom-site-logo">
-      <a class="headroom-logo" href="/"><img src="{{ './assets/img/shalom-logo-sq-light.png'|theme }}" alt="">
-      </a>
+      <a class="headroom-logo" href="/"><img src="{{ './assets/img/shalom-logo-sq-light.png'|theme }}" alt=""></a>
       </a>
     </div>
     <div class="shalom-header">
@@ -17,7 +16,6 @@
           <a href="#"><i class="fa fa-bars"></i></a>
         </div>
         {% if this.page.baseFileName != '404' and this.page.baseFileName != 'error' and this.page.baseFileName != 'maintenance' %} {% partial 'main-nav' %} {% endif %}
-
       </div>
     </div>
   </div>
@@ -39,3 +37,4 @@
     </div>
   </div>
 </header>
+
