@@ -5878,8 +5878,10 @@ iframe {
     .headroom .shalom-blog-menu a {
       color: #fff; }
       .headroom .shalom-blog-menu a:after {
-        background-color: #fff;
+        background-color: #2ca5f2;
         height: 0.125rem; }
+      .headroom .shalom-blog-menu a:hover {
+        color: #2ca5f2; }
   .headroom .shalom-header {
     color: #fff; }
     .headroom .shalom-header h1.site-title {

@@ -338,6 +338,9 @@ iframe {
 				width: 100%;
 				height: 100%;
 				outline: none;
+
+
+
 			}
 			&.#{$theme-prefix}-mobile-close-btn {
 				padding-right: rem-calc(20);
@@ -467,9 +470,12 @@ iframe {
     	a {
    			color: $headroom-color;
    			&:after {
-   				background-color: $headroom-color;
+   				background-color: $anchor-font-color-hover;
    				height: rem-calc(2);
    			}
+          &:hover {
+            color: $anchor-font-color-hover;
+          }
     	}
     }
     .#{$theme-prefix}-header {
