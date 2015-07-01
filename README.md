@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Shalom Bootstrap Template
 =====
 
@@ -15,6 +16,19 @@ CREDITS:
 * Conversion for OctoberCMS: **Fabricio Rabelo**
 * Design and development: [Bootstrap Zero](http://bootstrapzero.com/bootstrap-template/squad)
 * Original release distributed by: [Squad Bootstrap Template](http://bootstrapzero.com/bootstrap-template/squad)
+=======
+Shalom October Theme
+=====
+
+Shalom is a custom-made OctoberCMS adapted from Artee for Ghost and various other Foundation-based templates
+
+
+CREDITS:
+--------
+* Conversion for OctoberCMS: **Victor Toh**
+* Original and development: [Artee](http://artee.pxt.be)
+
+>>>>>>> origin/master
 
 About OctoberCMS Briefly
 ------------------------
