@@ -10,7 +10,7 @@ module.exports = function(grunt) {
       },
             dist: {
                 options: {
-                    outputStyle: 'nested' // nested or compressed
+                    outputStyle: 'compressed' // nested or compressed
                     // sourceMap: true,
                     // imagePath: '',
                     // includePaths: []
