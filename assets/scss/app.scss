@@ -131,8 +131,9 @@
   padding: 1em;
   color: $oil;
   &:hover {
-    background-color: $oil;
-    color: $snow;
+    background-color: $anchor-font-color-hover;
+    color: #fff;
+    border-color: $anchor-font-color;
   }
 
 }
@@ -198,8 +199,15 @@ background-color: $jumbo;
 	background: url('../img/f2.jpg');
 	background-size: cover;
 	background-attachment: fixed;
-	position: relative;  h2, p {
+	position: relative;
+  h2, p {
     color: $snow;
+    a {
+      color: $snow;
+      &:hover {
+        color: $anchor-font-color-hover;
+      }
+    }
   }
   .panel {
     background-color: #cdcdcd;

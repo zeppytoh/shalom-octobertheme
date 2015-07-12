@@ -13,3 +13,11 @@
   <li>
     <a href="/contact" class="">Contact</a>
   </li>
+  <li>
+    <a href="{{ 'account'|page }}">Account</a>
+  </li>
+  {% if user %}
+  <li>
+    <a href="#" class="" data-request="onLogout">Logout</a>
+  </li>
+  {% endif %}

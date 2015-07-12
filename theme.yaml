@@ -1,6 +1,6 @@
 name: Shalom Website Foundation
 code: shalomweb
-description: "Shalom is a free Bootstrap template from BootstrapTaste for creatives, with a simple and modern layout. Nice CSS3 animation added on each section scroll and navigatio. This template uses wow.js animation script to animate section elements. Ported to OctoberCMS"
+description: "Shalom is a template for the Shalom Baptist Chapel website by Victor Toh based on Zurb's Foundation (5.5.2). Ported to OctoberCMS"
 author: Victor Toh
 homepage: 'http://zeppytoh.github.io'
 
@@ -27,3 +27,4 @@ form:
                 label: Meta description
                 tab: Metadata
                 default: Shalom Baptist Chapel
+

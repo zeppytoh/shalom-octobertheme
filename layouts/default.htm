@@ -6,7 +6,7 @@ description = "Default layout"
 
 <head>
     <meta charset="utf-8">
-    <title>{{ this.theme.site_name }} - {{ this.page.title }}</title>
+    <title>{{ this.page.title }}</title>
 
     <!-- Metadata -->
     <meta name="title" content="{% if this.page.meta_title %}{{ this.page.meta_title }}{% else %}{{ this.theme.meta_title }}{% endif %}">
@@ -43,7 +43,7 @@ description = "Default layout"
     <style>{% placeholder inline_styles %}</style>
 </head>
 
-<body class="home-template page-template page">
+<body class="home-template page">
     {% partial 'sticky-header' %}
 
     {% page %}

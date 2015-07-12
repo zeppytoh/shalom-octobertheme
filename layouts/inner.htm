@@ -1,4 +1,7 @@
 description = "Inner Page layout"
+
+[session]
+security = "all"
 ==
 <!DOCTYPE html>
 <!--[if IE 9]><html class="no-js lt-ie10" lang="en"><![endif]-->
@@ -43,7 +46,7 @@ description = "Inner Page layout"
     <style>{% placeholder inline_styles %}</style>
 </head>
 
-<body class="post-template page-template page">
+<body class="post-template page">
     {% partial 'header-without-image' %}
 
     {% page %}
