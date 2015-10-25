@@ -1,7 +1,10 @@
 title = "Home"
 url = "/"
 layout = "default"
-hidden = "0"
+==
+function onStart() {
+  $this['bodystyles'] = "home-template page";
+  $this['headerstyles'] = "with-post-image shalom-site-head";   $this['isLogoDark'] = false;}
 ==
 <!-- Section: intro -->
  <main class="shalom-index-content shalom-page-container" role="main">

@@ -1,15 +1,18 @@
 title = "About"
 url = "/about"
-layout = "inner"
-hidden = "0"
+layout = "default"
 ==
-<!-- Section: intro -->
- <main class="shalom-post-container shalom-page-container" role="main">
-      <div class="row">
-			<section class="shalom-post-head shalom-post-head-cover small-12 columns">
-					<h1 class="shalom-post-title">About the Church</h1>
-        </section>
-      </div>
+function onStart() {
+  $this['bodystyles'] = "post-template page";
+  $this['headerstyles'] = "shalom-site-head";
+  /* whether the logo should be dark or light */
+  $this['isLogoDark'] = true;
+}
+==
+ <main class="shalom-post-content shalom-page-container" role="main">
+    <section class="shalom-post-head shalom-post-head-cover small-12 columns">
+      <h1 class="shalom-post-title">{{ this.page.title }}</h1>
+    </section>
 
 		<div class="cf"></div>
 		<article class="post page shalom-page row">

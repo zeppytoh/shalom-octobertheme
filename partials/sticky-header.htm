@@ -20,10 +20,10 @@
     </div>
   </div>
 </div>
-<header id="shalom-site-head" class="with-post-image shalom-site-head">
+<header id="shalom-site-head" class="{{ headerstyles }}">
   <div class="shalom-blog-title">
     <div class="shalom-site-logo">
-      <a id="shalom-blog-logo" href="/"><img src="{{ './assets/img/shalom-logo-sq-light.png'|theme }}" alt="">
+      <a id="shalom-blog-logo" href="/"><img src="{{ isLogoDark ?  './assets/img/shalom-logo-sq-dark.png'|theme : './assets/img/shalom-logo-sq-light.png'|theme }}" alt="">
       </a>
     </div>
     <div class="shalom-header">
